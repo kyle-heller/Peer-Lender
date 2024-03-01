@@ -1,0 +1,9 @@
+com/peerlender/lendingengine/domain/repository/UserRepository.class
+com/peerlender/lendingengine/domain/model/LoanApplication.class
+com/peerlender/lendingengine/LendingengineApplication.class
+com/peerlender/lendingengine/service/LoanApplicationAdapter.class
+com/peerlender/lendingengine/domain/exception/UserNotFoundException.class
+com/peerlender/lendingengine/application/model/LoanRequest.class
+com/peerlender/lendingengine/application/LoanController.class
+com/peerlender/lendingengine/domain/repository/LoanApplicationRepository.class
+com/peerlender/lendingengine/domain/model/User.class
