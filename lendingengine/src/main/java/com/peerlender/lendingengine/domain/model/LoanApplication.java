@@ -36,7 +36,7 @@ public final class LoanApplication {
         return borrower;
     }
 
-    public int getRepaymentTerm() {
+    public int getRepaymentTermInDays() {
         return repaymentTerm;
     }
 
