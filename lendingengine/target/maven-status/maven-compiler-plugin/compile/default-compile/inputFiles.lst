@@ -1,9 +1,13 @@
-/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/service/LoanApplicationAdapter.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/UserRepository.java
-/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/exception/UserNotFoundException.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/application/model/LoanRequest.java
-/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/LendingengineApplication.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/application/LoanController.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/exception/LoanApplicationNotFoundException.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/service/LoanService.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/service/LoanApplicationAdapter.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/exception/UserNotFoundException.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/LendingengineApplication.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/User.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/LoanRepository.java
 /Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/LoanApplicationRepository.java
+/Users/kyleheller/repos/Peer-Lender/lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/Loan.java

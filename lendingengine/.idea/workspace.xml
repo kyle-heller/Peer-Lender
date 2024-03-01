@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f85f4785-7020-4b08-9c7e-0306c3a47612" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/model/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/exception/LoanApplicationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/service/LoanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/application/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/application/LoanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/repository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/peerlender/lendingengine/domain/repository/LoanRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../profile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../profile/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

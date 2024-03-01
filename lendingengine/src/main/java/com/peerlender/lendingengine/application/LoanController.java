@@ -6,6 +6,7 @@ import com.peerlender.lendingengine.domain.model.User;
 import com.peerlender.lendingengine.domain.repository.LoanApplicationRepository;
 import com.peerlender.lendingengine.domain.repository.UserRepository;
 import com.peerlender.lendingengine.service.LoanApplicationAdapter;
+import com.peerlender.lendingengine.service.LoanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,13 +18,15 @@ public class LoanController {
     private LoanApplicationRepository loanApplicationRepository;
     private UserRepository userRepository;
     private final LoanApplicationAdapter loanApplicationAdapter;
+    private final LoanService loanService;
 
 
     @Autowired
-    public LoanController(LoanApplicationRepository loanApplicationRepository, UserRepository userRepository, LoanApplicationAdapter loanApplicationAdapter) {
+    public LoanController(LoanApplicationRepository loanApplicationRepository, UserRepository userRepository, LoanApplicationAdapter loanApplicationAdapter, LoanService loanService) {
         this.loanApplicationRepository = loanApplicationRepository;
         this.userRepository = userRepository;
         this.loanApplicationAdapter = loanApplicationAdapter;
+        this.loanService = loanService;
     }
 
 
@@ -34,7 +37,7 @@ public class LoanController {
 
     @PostMapping(value ="loan/accept/{lenderId}/{loanApplicationId}")
     public void acceptLoan(@PathVariable final String lenderId, @PathVariable final String loanApplicationId) {
-
+        loanService.acceptLoan(Long.parseLong(loanApplicationId), Long.parseLong(lenderId));
     }
 
     @GetMapping(value = "/loan/requests")

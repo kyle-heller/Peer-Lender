@@ -51,6 +51,9 @@ public final class LoanApplication {
         LoanApplication that = (LoanApplication) o;
         return amount == that.amount && Double.compare(interestRate, that.interestRate) == 0 && Objects.equals(borrower, that.borrower) && Objects.equals(repaymentTerm, that.repaymentTerm);
     }
+    public long getId() {
+        return id;
+    }
 
     @Override
     public int hashCode() {

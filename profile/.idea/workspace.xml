@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c96d241f-b963-4257-979b-a78bdadf5216" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/exception/LoanApplicationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/service/LoanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lendingengine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/application/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/application/LoanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/LoanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/LoanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/target/classes/com/peerlender/lendingengine/application/LoanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/target/classes/com/peerlender/lendingengine/application/LoanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/target/classes/com/peerlender/lendingengine/domain/model/LoanApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/target/classes/com/peerlender/lendingengine/domain/model/LoanApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

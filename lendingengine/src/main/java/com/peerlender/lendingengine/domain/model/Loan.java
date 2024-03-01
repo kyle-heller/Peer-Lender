@@ -3,6 +3,7 @@ package com.peerlender.lendingengine.domain.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 import java.time.LocalDate;
 
@@ -11,7 +12,9 @@ public class Loan {
     @Id
     @GeneratedValue
     public long id;
+    @ManyToOne
     public User borrower;
+    @ManyToOne
     public User lender;
     public int amount;
     private double interestRate;
