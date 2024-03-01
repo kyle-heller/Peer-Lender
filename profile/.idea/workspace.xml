@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c96d241f-b963-4257-979b-a78bdadf5216" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/profile/application/LoanController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/profile/domain/model/LoanRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/peerlender/profile/domain/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/application/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/application/model/LoanRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/LoanApplicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/domain/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/service/LoanApplicationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/LendingengineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/java/com/peerlender/lendingengine/LendingengineApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lendingengine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../lendingengine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,41 +51,28 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2d40dqvRxN0I7NaCOic5JJd8wvx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.run.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kyleheller/repos/Peer-Lender/profile",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kyleheller/repos/Peer-Lender/profile&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="temp" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
