@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.peerlender</groupId>
-	<artifactId>profile</artifactId>
+	<artifactId>lendingengine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>profile</name>
-	<description>Profile for peer to peer lending platform</description>
+	<name>lendingengine</name>
+	<description>Lending engine for peer to peer lending platform</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
